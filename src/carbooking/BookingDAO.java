@@ -6,9 +6,9 @@ public class BookingDAO {
 
     private String url = "jdbc:mysql://localhost:3306/car_booking_db";
     private String username = "root";
-    private String password = "root"; // Update if you set any password
+    private String password = "root"; 
 
-    // CREATE – Book a car
+    
     public void bookCar(int carId, String customerName) {
         try {
             Connection conn = DriverManager.getConnection(url, username, password);
@@ -31,7 +31,7 @@ public class BookingDAO {
         }
     }
 
-    // READ – View all bookings
+    
     public void viewBookings() {
         try {
             Connection conn = DriverManager.getConnection(url, username, password);
@@ -57,7 +57,7 @@ public class BookingDAO {
         }
     }
 
-    // DELETE – Cancel a booking
+    
     public void cancelBooking(int bookingId) {
         try {
             Connection conn = DriverManager.getConnection(url, username, password);
@@ -79,7 +79,7 @@ public class BookingDAO {
         }
     }
 
-    // UPDATE – Update customer name
+    
     public void updateBookingName(int bookingId, String newName) {
         try {
             Connection conn = DriverManager.getConnection(url, username, password);
