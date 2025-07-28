@@ -28,15 +28,23 @@ This is a simple Java-based Car Booking System built using **JDBC (Java Database
 
 Car_Booking_System/
 │
+
 ├── src/carbooking/
+
 │ ├── Car.java # Car model
+
 │ ├── Booking.java # Booking model
+
 │ ├── CarDAO.java # Car data operations
+
 │ ├── BookingDAO.java # Booking data operations
+
 │ ├── DBConnection.java # MySQL connection setup
+
 │ └── Main.java # Main class with logic flow
 │
 ├── bin/ # Compiled .class files
+
 ├── .classpath / .project # Eclipse project files
 
 
