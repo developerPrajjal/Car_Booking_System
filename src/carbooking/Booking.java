@@ -8,7 +8,7 @@ public class Booking {
     private String customerName;
     private LocalDate bookingDate;
 
-    // Constructor
+    
     public Booking(int bookingId, int carId, String customerName, LocalDate bookingDate) {
         this.bookingId = bookingId;
         this.carId = carId;
@@ -16,7 +16,7 @@ public class Booking {
         this.bookingDate = bookingDate;
     }
 
-    // Getters and Setters
+    
     public int getBookingId() {
         return bookingId;
     }
