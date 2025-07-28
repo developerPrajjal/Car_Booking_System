@@ -21,7 +21,7 @@ public class Main {
             System.out.print("Choose an option: ");
 
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -69,7 +69,7 @@ public class Main {
                     System.out.println("Invalid option. Try again.");
             }
 
-            System.out.println(); // spacing
+            System.out.println(); 
         }
     }
 }
