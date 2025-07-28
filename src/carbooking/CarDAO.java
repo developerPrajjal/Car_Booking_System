@@ -9,18 +9,18 @@ public class CarDAO {
     public List<String> getAllCars() {
         List<String> cars = new ArrayList<>();
 
-        String url = "jdbc:mysql://localhost:3306/car_booking_db"; // Your DB URL
-        String username = "root"; // Your DB username
-        String password = "root"; // Your DB password
+        String url = "jdbc:mysql://localhost:3306/car_booking_db"; 
+        String username = "root"; 
+        String password = "root"; 
 
         try {
             Connection conn = DriverManager.getConnection(url, username, password);
-            String sql = "SELECT name FROM cars"; // ✅ Fixed: 'name' is correct column
+            String sql = "SELECT name FROM cars"; 
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
 
             while (rs.next()) {
-                cars.add(rs.getString("name")); // ✅ Fixed: getString("name")
+                cars.add(rs.getString("name")); 
             }
 
             rs.close();
