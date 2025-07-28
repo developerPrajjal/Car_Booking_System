@@ -6,7 +6,7 @@ public class Car {
     private String model;
     private boolean available;
 
-    // Constructor
+    
     public Car(int id, String brand, String model, boolean available) {
         this.id = id;
         this.brand = brand;
@@ -14,7 +14,7 @@ public class Car {
         this.available = available;
     }
 
-    // Getters and Setters
+    
     public int getId() {
         return id;
     }
