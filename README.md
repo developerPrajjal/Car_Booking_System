@@ -57,19 +57,19 @@ Car_Booking_System/
    git clone https://github.com/developerPrajjal/Car_Booking_System.git
 2. Open in Eclipse:
 
-Go to File > Import > Existing Projects into Workspace
+   Go to File > Import > Existing Projects into Workspace
 
-Select the project folder.
+   Select the project folder.
 
 3. Set up MySQL Database:
+   
+   Import or create the required tables (cars, bookings, etc.) manually or via SQL script.
 
-Import or create the required tables (cars, bookings, etc.) manually or via SQL script.
-
-Update the MySQL DB credentials inside DBConnection.java.
+   Update the MySQL DB credentials inside DBConnection.java.
 
 4. Run the App:
 
-Right-click on Main.java > Run As > Java Application
+   Right-click on Main.java > Run As > Java Application
 
 📝 Author
 Prajjal Biswas
